@@ -1,0 +1,10 @@
+1
+1
+<<<<<<< HEAD
+<<<<<<<< HEAD:lab_02_02_01/func_tests/data/neg_05_in.txt
+=======
+<<<<<<<< HEAD:rk1/in/1
+>>>>>>> main
+========
+1
+>>>>>>>> main:lab_03_05_01/func_tests/data/neg_06_in.txt
