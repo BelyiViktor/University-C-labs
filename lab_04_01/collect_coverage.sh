@@ -3,15 +3,7 @@
 ./clean.sh
 
 # Компиляция с включением покрытия кода
-<<<<<<< HEAD
-<<<<<<<< HEAD:lab_02_01_01/collect_coverage.sh
-gcc -fprofile-arcs -ftest-coverage ./main.c -o app.exe
-========
 gcc -fprofile-arcs -ftest-coverage ./*.c -o app.exe -lm
->>>>>>>> main:lab_04_01/collect_coverage.sh
-=======
-gcc -fprofile-arcs -ftest-coverage ./*.c -o app.exe -lm
->>>>>>> main
 
 # Запуск тестов
 for test_file in ./func_tests/data/*in.txt; do
